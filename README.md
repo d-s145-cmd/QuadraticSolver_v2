@@ -9,16 +9,15 @@
 
 ---
 
+
 ## Структура проекта
-QuadraticSolver/
-├── main.cpp                  # точка входа
-├── QuadSolver.cpp/.h         # решение уравнения
-├── BigDecimal.cpp/.h         # длинная арифметика
-├── ComplexBigDecimal.cpp/.h  # комплексная арифметика
-├── UnsignedArith.cpp/.h      # беззнаковые операции
-├── build.bat                 # сборка под Windows
-├── build.sh                  # сборка под Linux/macOS
-└── README.md
+
+- `main.cpp` — точка входа
+- `QuadSolver.cpp/.h` — решение уравнения
+- `BigDecimal.cpp/.h` — длинная арифметика
+- `ComplexBigDecimal.cpp/.h` — комплексная арифметика
+- `UnsignedArith.cpp/.h` — беззнаковые операции
+- `README.md`
 
 ## Сборка
 
