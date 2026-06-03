@@ -12,12 +12,20 @@
 
 ## Структура проекта
 
-- `main.cpp` — точка входа
-- `QuadSolver.cpp/.h` — решение уравнения
-- `BigDecimal.cpp/.h` — длинная арифметика
-- `ComplexBigDecimal.cpp/.h` — комплексная арифметика
-- `UnsignedArith.cpp/.h` — беззнаковые операции
-- `README.md`
+QuadraticSolver/
+├── include/
+│   ├── BigDecimal.h
+│   ├── QuadSolver.h
+│   └── UnsignedArith.h
+├── src/
+│   ├── main.cpp
+│   ├── QuadSolver.cpp
+│   ├── BigDecimal.cpp
+│   └── UnsignedArith.cpp
+├── test/
+│   ├── test_main.cpp
+│   
+└── README.md
 
 ## Сборка
 
