@@ -6,7 +6,7 @@ echo    Quadratic Solver - Build
 echo ============================================
 echo.
 
-:: Check g++
+
 echo [CHECK] Looking for g++...
 where g++ >nul 2>nul
 if %errorlevel% neq 0 (
@@ -26,7 +26,7 @@ echo [OK] g++ found
 g++ --version 2>nul | findstr "g++"
 echo.
 
-:: Check source files
+
 echo [CHECK] Checking source files...
 set MISSING=0
 
@@ -54,7 +54,7 @@ if %MISSING%==1 (
 
 echo.
 
-:: Build
+
 set SOURCES=main.cpp QuadSolver.cpp BigDecimal.cpp UnsignedArith.cpp ComplexBigDecimal.cpp
 set OUTPUT=QuadraticSolver.exe
 set FLAGS=-std=c++17 -O2 -Wall -Wextra
